@@ -1,20 +1,48 @@
 import Link from "next/link";
-import { fetchProducts } from "@/lib/api";
+import { fetchProducts, api, unwrapList, type Offer, type Product } from "@/lib/api";
 import { ProductCard } from "@/components/commerce/ProductCard";
 import { featuredProducts } from "@/data/home";
 import { ProductTub } from "@/components/ui/ProductTub";
 import { Icon } from "@/components/ui/Icon";
 import { BestSolutionsCarousel } from "@/components/home/BestSolutionsCarousel";
 
-export async function BestSolutions() {
-  const res = await fetchProducts({
-    featured: 1,
-    per_page: 8,
-    status: "active",
-    sort: "latest",
-  });
+function buildOfferMap(offers: Offer[]): Map<string, { discounted: number; original: number }> {
+  const map = new Map<string, { discounted: number; original: number }>();
+  for (const offer of offers) {
+    if (!offer.is_active && !offer.is_valid) continue;
+    const offerable = offer.offerable;
+    if (!offerable || offerable.kind !== "product" || !offerable.id) continue;
 
-  const products = res.items;
+    const after = Number(offer.total_price_after ?? offer.price ?? 0);
+    const before = Number(offer.total_price_before ?? 0);
+    if (after <= 0) continue;
+
+    const key = String(offerable.id);
+    const existing = map.get(key);
+    if (!existing || after < existing.discounted) {
+      map.set(key, {
+        discounted: after,
+        original: before > after ? before : after,
+      });
+    }
+  }
+  return map;
+}
+
+export async function BestSolutions() {
+  const [productsRes, offersRes] = await Promise.all([
+    fetchProducts({
+      featured: 1,
+      per_page: 8,
+      status: "active",
+      sort: "latest",
+    }),
+    api.offers(),
+  ]);
+
+  const products = productsRes.items;
+  const offers = offersRes.ok ? unwrapList<Offer>(offersRes.data) : [];
+  const offerMap = buildOfferMap(offers);
 
   return (
     <section className="bg-surface">
@@ -33,11 +61,20 @@ export async function BestSolutions() {
 
         {products.length > 0 ? (
           <BestSolutionsCarousel>
-            {products.map((product) => (
-              <div key={String(product.id)} className="w-[220px] shrink-0 sm:w-[240px]">
-                <ProductCard product={product} />
-              </div>
-            ))}
+            {products.map((product) => {
+              const offerPrice = offerMap.get(String(product.id));
+              return (
+                <div
+                  key={String(product.id)}
+                  className="w-[220px] shrink-0 sm:w-[240px]"
+                >
+                  <ProductCard
+                    product={product}
+                    offerPrice={offerPrice}
+                  />
+                </div>
+              );
+            })}
           </BestSolutionsCarousel>
         ) : (
           <BestSolutionsCarousel>
