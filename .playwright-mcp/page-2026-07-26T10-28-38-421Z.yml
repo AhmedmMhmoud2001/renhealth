@@ -1,0 +1,276 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - generic [ref=f4e4]: Founded in Sweden
+    - generic [ref=f4e12]: Evidence-Based Formulas
+    - generic [ref=f4e20]: Fast Delivery Across Saudi Arabia
+    - generic [ref=f4e28]: 100% Authentic & Quality Verified
+  - banner [ref=f4e35]:
+    - generic [ref=f4e36]:
+      - generic [ref=f4e37]:
+        - link "REN Health — Home" [ref=f4e38] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f4e39]: REN
+          - generic [ref=f4e42]: HEALTH
+        - navigation [ref=f4e46]:
+          - link "Shop" [ref=f4e47] [cursor=pointer]:
+            - /url: /shop
+          - link "Offers" [ref=f4e48] [cursor=pointer]:
+            - /url: /offers
+          - link "Health Goals" [ref=f4e49] [cursor=pointer]:
+            - /url: /goals
+          - link "Our Story" [ref=f4e50] [cursor=pointer]:
+            - /url: /story
+          - link "Swedish Formula™" [ref=f4e51] [cursor=pointer]:
+            - /url: /swedish-formula
+          - link "Ingredients" [ref=f4e52] [cursor=pointer]:
+            - /url: /ingredients
+          - link "Journal" [ref=f4e53] [cursor=pointer]:
+            - /url: /journal
+        - generic [ref=f4e54]:
+          - link "Account" [ref=f4e55] [cursor=pointer]:
+            - /url: /login
+          - link "Wishlist" [ref=f4e59] [cursor=pointer]:
+            - /url: /wishlist
+          - link "Notifications" [ref=f4e62] [cursor=pointer]:
+            - /url: /account/notifications
+          - link "Cart" [ref=f4e66] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=f4e70]: "0"
+      - generic [ref=f4e72]:
+        - generic [ref=f4e73]: Search REN Health
+        - searchbox "Search REN Health Search" [ref=f4e74]
+        - button "Search" [ref=f4e75]
+  - main [ref=f4e76]:
+    - generic [ref=f4e77]:
+      - generic [ref=f4e79]:
+        - navigation [ref=f4e80]:
+          - link "Home" [ref=f4e82] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f4e83]:
+            - generic [ref=f4e84]: /
+            - generic [ref=f4e85]: Shop
+        - heading "Shop" [level=1] [ref=f4e86]
+        - paragraph [ref=f4e87]: Evidence-based formulas crafted with Swedish precision.
+      - generic [ref=f4e89]:
+        - complementary [ref=f4e90]:
+          - generic [ref=f4e91]:
+            - generic [ref=f4e92]:
+              - button [expanded] [ref=f4e93]
+              - list [ref=f4e102]:
+                - listitem [ref=f4e103]:
+                  - button "All Products" [ref=f4e104]
+                - listitem [ref=f4e111]:
+                  - button "Vitamins" [ref=f4e112]
+                - listitem [ref=f4e117]:
+                  - button "Protein" [ref=f4e118]
+                - listitem [ref=f4e123]:
+                  - button "Supplements" [ref=f4e124]
+                - listitem [ref=f4e130]:
+                  - button "Fitness" [ref=f4e131]
+                - listitem [ref=f4e137]:
+                  - button "Accessories" [ref=f4e138]
+                - listitem [ref=f4e144]:
+                  - button "Wellness Bundles" [ref=f4e145]
+            - generic [ref=f4e151]:
+              - button [expanded] [ref=f4e152]
+              - generic [ref=f4e161]:
+                - button "Latest" [ref=f4e162]
+                - 'button "Price: Low to High" [ref=f4e169]'
+                - 'button "Price: High to Low" [ref=f4e177]'
+            - generic [ref=f4e184]:
+              - button [expanded] [ref=f4e185]
+              - generic [ref=f4e194]:
+                - button "All" [ref=f4e195]
+                - button "REN Health" [ref=f4e200]
+                - button "PureForm Labs" [ref=f4e203]
+                - button "Active Fuel" [ref=f4e206]
+            - generic [ref=f4e209]:
+              - button "L.E. Price" [expanded] [ref=f4e210]:
+                - generic [ref=f4e211]:
+                  - generic [ref=f4e212]: L.E.
+                  - text: Price
+              - generic [ref=f4e216]:
+                - paragraph [ref=f4e217]: Select your price range
+                - generic [ref=f4e218]:
+                  - slider "Minimum price": "0"
+                  - slider "Maximum price": "10000"
+                - generic [ref=f4e221]:
+                  - generic [ref=f4e222]:
+                    - generic [ref=f4e223]: Min
+                    - generic [ref=f4e224]:
+                      - spinbutton [ref=f4e225]: "0"
+                      - generic [ref=f4e226]: L.E.
+                  - generic [ref=f4e227]: —
+                  - generic [ref=f4e228]:
+                    - generic [ref=f4e229]: Max
+                    - generic [ref=f4e230]:
+                      - spinbutton [ref=f4e231]: "10000"
+                      - generic [ref=f4e232]: L.E.
+                - generic [ref=f4e233]:
+                  - button "All" [ref=f4e234]
+                  - button "0 - 500" [ref=f4e235]
+                  - button "500 - 1000" [ref=f4e236]
+                  - button "1000 - 2000" [ref=f4e237]
+                  - button "2000+" [ref=f4e238]
+                - button "Apply Filter" [ref=f4e239]
+            - generic [ref=f4e245]:
+              - button [expanded] [ref=f4e246]
+              - generic [ref=f4e254]:
+                - button "New arrivals" [ref=f4e255]
+                - button "Wishlisted" [ref=f4e261]
+                - button "On Offer" [ref=f4e267]
+        - generic [ref=f4e276]:
+          - article [ref=f4e277]:
+            - button "Add to wishlist" [ref=f4e279]
+            - link [ref=f4e282] [cursor=pointer]:
+              - /url: /products/ren-smart-shaker
+              - img "Smart Shaker Bottle" [ref=f4e284]
+              - paragraph [ref=f4e285]: Active Fuel
+              - heading "Smart Shaker Bottle" [level=3] [ref=f4e286]
+            - generic [ref=f4e287]:
+              - paragraph [ref=f4e289]: 320 L.E.
+              - button "Add to cart" [ref=f4e290]
+          - article [ref=f4e293]:
+            - button "Add to wishlist" [ref=f4e295]
+            - link [ref=f4e298] [cursor=pointer]:
+              - /url: /products/ren-resistance-bands
+              - img "Resistance Bands Set" [ref=f4e300]
+              - paragraph [ref=f4e301]: Active Fuel
+              - heading "Resistance Bands Set" [level=3] [ref=f4e302]
+            - generic [ref=f4e303]:
+              - paragraph [ref=f4e305]: 420 L.E.
+              - button "Add to cart" [ref=f4e306]
+          - article [ref=f4e309]:
+            - button "Add to wishlist" [ref=f4e311]
+            - link [ref=f4e314] [cursor=pointer]:
+              - /url: /products/active-protein-bars-box
+              - img "Protein Bars Box" [ref=f4e316]
+              - paragraph [ref=f4e317]: Active Fuel
+              - heading "Protein Bars Box" [level=3] [ref=f4e318]
+            - generic [ref=f4e319]:
+              - paragraph [ref=f4e321]: 540 L.E.
+              - button "Add to cart" [ref=f4e322]
+          - article [ref=f4e325]:
+            - generic [ref=f4e326]: Bestseller
+            - button "Add to wishlist" [ref=f4e328]
+            - link [ref=f4e331] [cursor=pointer]:
+              - /url: /products/ren-magnesium-glycinate
+              - img "Magnesium Glycinate" [ref=f4e333]
+              - paragraph [ref=f4e334]: REN Health
+              - heading "Magnesium Glycinate" [level=3] [ref=f4e335]
+            - generic [ref=f4e336]:
+              - paragraph [ref=f4e338]: 785 L.E.
+              - button "Add to cart" [ref=f4e339]
+          - article [ref=f4e342]:
+            - generic [ref=f4e343]: Bestseller
+            - button "Add to wishlist" [ref=f4e345]
+            - link [ref=f4e348] [cursor=pointer]:
+              - /url: /products/ren-royal-jelly-1000
+              - img "Royal Jelly 1000 mg" [ref=f4e350]
+              - paragraph [ref=f4e351]: REN Health
+              - heading "Royal Jelly 1000 mg" [level=3] [ref=f4e352]
+            - generic [ref=f4e353]:
+              - paragraph [ref=f4e355]: 899 L.E.
+              - button "Add to cart" [ref=f4e356]
+          - article [ref=f4e359]:
+            - button "Add to wishlist" [ref=f4e361]
+            - link [ref=f4e364] [cursor=pointer]:
+              - /url: /products/ren-prenatal-formula
+              - img "Prenatal Formula" [ref=f4e366]
+              - paragraph [ref=f4e367]: REN Health
+              - heading "Prenatal Formula" [level=3] [ref=f4e368]
+            - generic [ref=f4e369]:
+              - paragraph [ref=f4e371]: 1,090 L.E.
+              - button "Add to cart" [ref=f4e372]
+          - article [ref=f4e375]:
+            - generic [ref=f4e376]: Sale
+            - button "Add to wishlist" [ref=f4e378]
+            - link [ref=f4e381] [cursor=pointer]:
+              - /url: /products/ren-collagen-peptides
+              - img "Collagen Peptides" [ref=f4e383]
+              - paragraph [ref=f4e384]: REN Health
+              - heading "Collagen Peptides" [level=3] [ref=f4e385]
+            - generic [ref=f4e386]:
+              - generic [ref=f4e387]:
+                - paragraph [ref=f4e388]: 1,319.12 L.E.
+                - paragraph [ref=f4e389]: 1,499 L.E.
+              - button "Add to cart" [ref=f4e390]
+          - article [ref=f4e393]:
+            - generic [ref=f4e394]: Bestseller
+            - button "Add to wishlist" [ref=f4e396]
+            - link [ref=f4e399] [cursor=pointer]:
+              - /url: /products/pure-whey-isolate-2lb
+              - img "Whey Protein Isolate 2lb" [ref=f4e401]
+              - paragraph [ref=f4e402]: PureForm Labs
+              - heading "Whey Protein Isolate 2lb" [level=3] [ref=f4e403]
+            - generic [ref=f4e404]:
+              - paragraph [ref=f4e406]: 1,890 L.E.
+              - button "Add to cart" [ref=f4e407]
+  - contentinfo [ref=f4e410]:
+    - generic [ref=f4e411]:
+      - generic [ref=f4e412]:
+        - link "REN Health — Home" [ref=f4e413] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f4e414]: REN
+          - generic [ref=f4e417]: HEALTH
+        - paragraph [ref=f4e421]: The Swedish way of better health — evidence-based formulas, premium ingredients, and quiet precision.
+        - paragraph [ref=f4e422]: Founded in Sweden
+      - generic [ref=f4e423]:
+        - generic [ref=f4e424]:
+          - heading "Shop" [level=3] [ref=f4e425]
+          - list [ref=f4e426]:
+            - listitem [ref=f4e427]:
+              - link "All Products" [ref=f4e428] [cursor=pointer]:
+                - /url: /shop
+            - listitem [ref=f4e429]:
+              - link "Offers" [ref=f4e430] [cursor=pointer]:
+                - /url: /offers
+            - listitem [ref=f4e431]:
+              - link "Health Goals" [ref=f4e432] [cursor=pointer]:
+                - /url: /goals
+            - listitem [ref=f4e433]:
+              - link "Bestsellers" [ref=f4e434] [cursor=pointer]:
+                - /url: /shop?sort=bestsellers
+            - listitem [ref=f4e435]:
+              - link "New Arrivals" [ref=f4e436] [cursor=pointer]:
+                - /url: /shop?sort=new
+        - generic [ref=f4e437]:
+          - heading "Brand" [level=3] [ref=f4e438]
+          - list [ref=f4e439]:
+            - listitem [ref=f4e440]:
+              - link "Our Story" [ref=f4e441] [cursor=pointer]:
+                - /url: /story
+            - listitem [ref=f4e442]:
+              - link "Swedish Formula™" [ref=f4e443] [cursor=pointer]:
+                - /url: /swedish-formula
+            - listitem [ref=f4e444]:
+              - link "Swedish Promise™" [ref=f4e445] [cursor=pointer]:
+                - /url: /promise
+            - listitem [ref=f4e446]:
+              - link "Ingredients" [ref=f4e447] [cursor=pointer]:
+                - /url: /ingredients
+        - generic [ref=f4e448]:
+          - heading "Support" [level=3] [ref=f4e449]
+          - list [ref=f4e450]:
+            - listitem [ref=f4e451]:
+              - link "Shipping" [ref=f4e452] [cursor=pointer]:
+                - /url: /shipping
+            - listitem [ref=f4e453]:
+              - link "Returns" [ref=f4e454] [cursor=pointer]:
+                - /url: /account/refund-requests
+            - listitem [ref=f4e455]:
+              - link "FAQ" [ref=f4e456] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=f4e457]:
+              - link "Contact" [ref=f4e458] [cursor=pointer]:
+                - /url: /account/tickets
+    - generic [ref=f4e460]:
+      - paragraph [ref=f4e461]: © 2026 REN Health AB. All rights reserved.
+      - generic [ref=f4e462]:
+        - link "Privacy" [ref=f4e463] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=f4e464] [cursor=pointer]:
+          - /url: /terms
+        - generic [ref=f4e465]: www.renhealth.se
+  - button "Open Next.js Dev Tools" [ref=f4e471] [cursor=pointer]
+  - alert [ref=f4e475]

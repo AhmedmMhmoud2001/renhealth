@@ -1,0 +1,169 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e3]:
+    - generic [ref=f12e4]: Founded in Sweden
+    - generic [ref=f12e12]: Evidence-Based Formulas
+    - generic [ref=f12e20]: Fast Delivery Across Saudi Arabia
+    - generic [ref=f12e28]: 100% Authentic & Quality Verified
+  - banner [ref=f12e35]:
+    - generic [ref=f12e36]:
+      - generic [ref=f12e37]:
+        - link "REN Health — Home" [ref=f12e38] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f12e39]: REN
+          - generic [ref=f12e42]: HEALTH
+        - navigation [ref=f12e46]:
+          - link "Shop" [ref=f12e47] [cursor=pointer]:
+            - /url: /shop
+          - link "Health Goals" [ref=f12e48] [cursor=pointer]:
+            - /url: /goals
+          - link "Our Story" [ref=f12e49] [cursor=pointer]:
+            - /url: /story
+          - link "Swedish Formula™" [ref=f12e50] [cursor=pointer]:
+            - /url: /swedish-formula
+          - link "Ingredients" [ref=f12e51] [cursor=pointer]:
+            - /url: /ingredients
+          - link "Journal" [ref=f12e52] [cursor=pointer]:
+            - /url: /journal
+        - generic [ref=f12e53]:
+          - link "Account" [ref=f12e54] [cursor=pointer]:
+            - /url: /login
+          - link "Wishlist" [ref=f12e58] [cursor=pointer]:
+            - /url: /wishlist
+          - link "Notifications" [ref=f12e61] [cursor=pointer]:
+            - /url: /account/notifications
+          - link "Cart" [ref=f12e65] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=f12e69]: "0"
+      - generic [ref=f12e71]:
+        - generic [ref=f12e72]: Search REN Health
+        - searchbox "Search REN Health Search" [ref=f12e73]
+        - button "Search" [ref=f12e74]
+  - main [ref=f12e75]:
+    - generic [ref=f12e76]:
+      - generic [ref=f12e78]:
+        - navigation [ref=f12e79]:
+          - link "Home" [ref=f12e81] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f12e82]:
+            - generic [ref=f12e83]: /
+            - generic [ref=f12e84]: Offers
+        - heading "Offers" [level=1] [ref=f12e85]
+        - paragraph [ref=f12e86]: Selected Swedish solutions and seasonal formulas.
+      - generic [ref=f12e88]:
+        - link "12% off Collagen Add to wishlist Save 179.88 L.E. 12% off Collagen Collagen Peptides 12% off Collagen — Collagen Peptides 1,319.12 L.E. 1,499 L.E. percentage" [ref=f12e89] [cursor=pointer]:
+          - /url: /offers/1
+          - generic [ref=f12e90]:
+            - img "12% off Collagen" [ref=f12e91]
+            - button "Add to wishlist" [ref=f12e93]
+            - generic [ref=f12e96]: Save 179.88 L.E.
+          - generic [ref=f12e97]:
+            - heading "12% off Collagen" [level=2] [ref=f12e98]
+            - paragraph [ref=f12e99]: Collagen Peptides
+            - paragraph [ref=f12e100]: 12% off Collagen — Collagen Peptides
+            - generic [ref=f12e101]:
+              - generic [ref=f12e102]: 1,319.12 L.E.
+              - generic [ref=f12e103]: 1,499 L.E.
+            - paragraph [ref=f12e104]: percentage
+        - link "R Add to wishlist Save 161.82 L.E. Royal Jelly Flash Sale 737.18 L.E. 899 L.E. flash_sale" [ref=f12e105] [cursor=pointer]:
+          - /url: /offers/2
+          - generic [ref=f12e106]:
+            - generic [ref=f12e107]: R
+            - button "Add to wishlist" [ref=f12e109]
+            - generic [ref=f12e112]: Save 161.82 L.E.
+          - generic [ref=f12e113]:
+            - heading "Royal Jelly Flash Sale" [level=2] [ref=f12e114]
+            - generic [ref=f12e115]:
+              - generic [ref=f12e116]: 737.18 L.E.
+              - generic [ref=f12e117]: 899 L.E.
+            - paragraph [ref=f12e118]: flash_sale
+        - link "G Add to wishlist Save 61 L.E. Gym Starter Combo 799 L.E. 860 L.E. Bundle deal" [ref=f12e119] [cursor=pointer]:
+          - /url: /offers/3
+          - generic [ref=f12e120]:
+            - generic [ref=f12e121]: G
+            - button "Add to wishlist" [ref=f12e123]
+            - generic [ref=f12e126]: Save 61 L.E.
+          - generic [ref=f12e127]:
+            - heading "Gym Starter Combo" [level=2] [ref=f12e128]
+            - generic [ref=f12e129]:
+              - generic [ref=f12e130]: 799 L.E.
+              - generic [ref=f12e131]: 860 L.E.
+            - paragraph [ref=f12e132]: Bundle deal
+        - link "W Add to wishlist Save 5,970 L.E. Whey Bulk Deal 3,480 L.E. 9,450 L.E. quantity_tier" [ref=f12e133] [cursor=pointer]:
+          - /url: /offers/4
+          - generic [ref=f12e134]:
+            - generic [ref=f12e135]: W
+            - button "Add to wishlist" [ref=f12e137]
+            - generic [ref=f12e140]: Save 5,970 L.E.
+          - generic [ref=f12e141]:
+            - heading "Whey Bulk Deal" [level=2] [ref=f12e142]
+            - generic [ref=f12e143]:
+              - generic [ref=f12e144]: 3,480 L.E.
+              - generic [ref=f12e145]: 9,450 L.E.
+            - paragraph [ref=f12e146]: quantity_tier
+  - contentinfo [ref=f12e147]:
+    - generic [ref=f12e148]:
+      - generic [ref=f12e149]:
+        - link "REN Health — Home" [ref=f12e150] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f12e151]: REN
+          - generic [ref=f12e154]: HEALTH
+        - paragraph [ref=f12e158]: The Swedish way of better health — evidence-based formulas, premium ingredients, and quiet precision.
+        - paragraph [ref=f12e159]: Founded in Sweden
+      - generic [ref=f12e160]:
+        - generic [ref=f12e161]:
+          - heading "Shop" [level=3] [ref=f12e162]
+          - list [ref=f12e163]:
+            - listitem [ref=f12e164]:
+              - link "All Products" [ref=f12e165] [cursor=pointer]:
+                - /url: /shop
+            - listitem [ref=f12e166]:
+              - link "Offers" [ref=f12e167] [cursor=pointer]:
+                - /url: /offers
+            - listitem [ref=f12e168]:
+              - link "Health Goals" [ref=f12e169] [cursor=pointer]:
+                - /url: /goals
+            - listitem [ref=f12e170]:
+              - link "Bestsellers" [ref=f12e171] [cursor=pointer]:
+                - /url: /shop?sort=bestsellers
+            - listitem [ref=f12e172]:
+              - link "New Arrivals" [ref=f12e173] [cursor=pointer]:
+                - /url: /shop?sort=new
+        - generic [ref=f12e174]:
+          - heading "Brand" [level=3] [ref=f12e175]
+          - list [ref=f12e176]:
+            - listitem [ref=f12e177]:
+              - link "Our Story" [ref=f12e178] [cursor=pointer]:
+                - /url: /story
+            - listitem [ref=f12e179]:
+              - link "Swedish Formula™" [ref=f12e180] [cursor=pointer]:
+                - /url: /swedish-formula
+            - listitem [ref=f12e181]:
+              - link "Swedish Promise™" [ref=f12e182] [cursor=pointer]:
+                - /url: /promise
+            - listitem [ref=f12e183]:
+              - link "Ingredients" [ref=f12e184] [cursor=pointer]:
+                - /url: /ingredients
+        - generic [ref=f12e185]:
+          - heading "Support" [level=3] [ref=f12e186]
+          - list [ref=f12e187]:
+            - listitem [ref=f12e188]:
+              - link "Shipping" [ref=f12e189] [cursor=pointer]:
+                - /url: /shipping
+            - listitem [ref=f12e190]:
+              - link "Returns" [ref=f12e191] [cursor=pointer]:
+                - /url: /account/refund-requests
+            - listitem [ref=f12e192]:
+              - link "FAQ" [ref=f12e193] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=f12e194]:
+              - link "Contact" [ref=f12e195] [cursor=pointer]:
+                - /url: /account/tickets
+    - generic [ref=f12e197]:
+      - paragraph [ref=f12e198]: © 2026 REN Health AB. All rights reserved.
+      - generic [ref=f12e199]:
+        - link "Privacy" [ref=f12e200] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=f12e201] [cursor=pointer]:
+          - /url: /terms
+        - generic [ref=f12e202]: www.renhealth.se
+  - button "Open Next.js Dev Tools" [ref=f12e208] [cursor=pointer]
