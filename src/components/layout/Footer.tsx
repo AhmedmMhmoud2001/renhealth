@@ -1,6 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Logo } from "@/components/ui/Logo";
-
 const columns = [
   {
     title: "Shop",
@@ -71,9 +71,9 @@ export function Footer() {
       </div>
 
       <div className="border-t border-line">
-        <div className="section-max section-pad flex flex-col gap-3 py-5 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+        <div className="section-max section-pad flex flex-col gap-4 py-5 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} REN Health AB. All rights reserved.</p>
-          <div className="flex flex-wrap gap-x-5 gap-y-1">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <Link href="/privacy" className="transition hover:text-ink">
               Privacy
             </Link>
@@ -83,7 +83,39 @@ export function Footer() {
             <span className="tracking-[0.12em]">www.renhealth.se</span>
           </div>
         </div>
-      </div>
-    </footer>
+        <div className="border-t border-line/60">
+          <div className="section-max section-pad flex flex-col items-center gap-2 py-4 text-center text-[11px] text-muted sm:flex-row sm:justify-center sm:gap-3">
+            <span>Developed by</span>
+            <a
+              href="https://www.qeematech.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 transition-opacity hover:opacity-80"
+              aria-label="Qeema Tech — website development"
+            >
+              <Image
+                src="/images/qeematech-logo.png"
+                alt="Qeema Tech"
+                width={72}
+                height={28}
+                className="h-6 w-auto object-contain"
+              />
+            </a>
+            <span className="hidden sm:inline">·</span>
+            <span>
+              © {new Date().getFullYear()}{" "}
+              <a
+                href="https://www.qeematech.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink-soft transition hover:text-ink"
+              >
+                Qeema Tech
+              </a>
+              . All rights reserved.
+            </span>
+          </div>
+        </div>
+      </div>    </footer>
   );
 }
